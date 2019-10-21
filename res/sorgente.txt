@@ -1,0 +1,2 @@
+d=300;
+claudio sei un **io porco
