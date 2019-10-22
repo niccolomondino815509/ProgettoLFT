@@ -2,7 +2,6 @@ package Esercizio2;
 
 import java.io.*;
 import java.util.*;
-import Esercizio2.*;
 
 public class Lexer {
 
@@ -124,6 +123,8 @@ public class Lexer {
                         word = word + peek;
                         readch(br);
                     }
+
+                    System.out.println(peek);
                     switch (word) {
                         case "cond":
                             peek=' ';
